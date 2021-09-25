@@ -1,5 +1,5 @@
 <h1 align="center">CI/CD with GitHub Actions</h1>
-<h5 align="center">@kmkumaran @kaverma</h3>
+<h5 align="center">@phoenix24 @kanika1894</h3>
 
 <p align="center">
   <a href="#mega-prerequisites">Prerequisites</a> •  
