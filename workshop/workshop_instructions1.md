@@ -45,7 +45,8 @@ At the end of this exercise we will learn -
         - `strategy matrix`
         - `steps` to checkout the repo, setup Node, install denedencies, build and test.
      
-4. Use `Start Commit` option to commit this file as such directly to the `main` branch.
+4. Use `Start Commit` button to commit this file as such directly to the `main` branch.
+<img width="1440" alt="Screenshot 2021-09-27 at 2 58 32 PM" src="https://user-images.githubusercontent.com/86035/134882550-4afb61a8-3166-4b29-b904-6718f3387622.png">
 
 5. :tada: Go to Actions tab to see the first workflow running
     - Under `All workflows`, you will find your new workflow `Node.js CI.
