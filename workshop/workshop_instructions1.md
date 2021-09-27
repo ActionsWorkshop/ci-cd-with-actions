@@ -30,8 +30,8 @@ At the end of this exercise we will learn -
 
 1. In the forked `<username>/ci-cd-with-actions` repository, go to **Actions** tab and you will see a page to "Get started with GitHub Actions". You will find suggested starter workflows for this repository here.
 
-2. Choose **Node.js** -> "Configure"
-  <img width="434" alt="image" src="https://user-images.githubusercontent.com/58769601/134165198-9029eaf6-9dfe-431f-89a9-f2582e59ba8d.png">
+2. Choose **Node.js** -> "Setup this Workflow"
+  <img width="575" alt="Screenshot 2021-09-27 at 2 50 50 PM" src="https://user-images.githubusercontent.com/86035/134881207-5d10db2f-3376-4d4f-a238-1dd0db2c22a1.png">
   
 3. You can choose to name the file as "ci.yml". The file that you are creating on `main` branch is - 
     - `.github/workflows/ci.yml`
