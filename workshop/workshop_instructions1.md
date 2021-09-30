@@ -10,10 +10,9 @@
 At the end of this exercise we will learn -
 1. How to create a new CI workflow 
 2. About Workflow templates 
-3. Using Intellisense in UI Action authoring  
-4. Configuring Action triggers and type of triggers 
-5. About Job strategies 
-6. Adding a status badge for a workflow
+3. Configuring Action triggers and type of triggers 
+4. About Job strategies 
+5. Adding a status badge for a workflow
 
 ## Fork ci-cd-with-actions repository
 
