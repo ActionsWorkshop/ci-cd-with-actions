@@ -18,7 +18,7 @@ At the end of this exercise we will learn -
 
 1. Log into your GitHub account and fork [ci-cd-with-actions](https://github.com/ActionsWorkshop/ci-cd-with-actions). 
 
-    - Open the [ci-cd-with-actions](https://github.com/githubsatelliteworkshops/ci-cd-with-actions) in a browser
+    - Open the [ci-cd-with-actions](https://github.com/ActionsWorkshop/ci-cd-with-actions) in a browser
     - Sign in to your GitHub account from top right if not signed-in already.
     - Fork this repository into your user account (using `Fork` option on top right of the screen). This repository will get forked as `<username>/ci-cd-with-actions`
     
