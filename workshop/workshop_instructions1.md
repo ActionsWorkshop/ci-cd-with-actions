@@ -17,7 +17,7 @@ At the end of this exercise we will learn -
 
 ## Fork ci-cd-with-actions repository
 
-1. Log into your GitHub account and fork [ci-cd-with-actions](https://github.com/githubsatelliteworkshops/ci-cd-with-actions). 
+1. Log into your GitHub account and fork [ci-cd-with-actions](https://github.com/ActionsWorkshop/ci-cd-with-actions). 
 
     - Open the [ci-cd-with-actions](https://github.com/githubsatelliteworkshops/ci-cd-with-actions) in a browser
     - Sign in to your GitHub account from top right if not signed-in already.
@@ -30,8 +30,8 @@ At the end of this exercise we will learn -
 
 1. In the forked `<username>/ci-cd-with-actions` repository, go to **Actions** tab and you will see a page to "Get started with GitHub Actions". You will find suggested starter workflows for this repository here.
 
-2. Choose **Node.js** -> "Configure"
-  <img width="434" alt="image" src="https://user-images.githubusercontent.com/58769601/134165198-9029eaf6-9dfe-431f-89a9-f2582e59ba8d.png">
+2. Choose **Node.js** -> "Setup this Workflow"
+  <img width="575" alt="Screenshot 2021-09-27 at 2 50 50 PM" src="https://user-images.githubusercontent.com/86035/134881207-5d10db2f-3376-4d4f-a238-1dd0db2c22a1.png">
   
 3. You can choose to name the file as "ci.yml". The file that you are creating on `main` branch is - 
     - `.github/workflows/ci.yml`
@@ -45,7 +45,8 @@ At the end of this exercise we will learn -
         - `strategy matrix`
         - `steps` to checkout the repo, setup Node, install denedencies, build and test.
      
-4. Use `Start Commit` option to commit this file as such directly to the `main` branch.
+4. Use `Start Commit` button to commit this file as such directly to the `main` branch.
+<img width="1440" alt="Screenshot 2021-09-27 at 2 58 32 PM" src="https://user-images.githubusercontent.com/86035/134882550-4afb61a8-3166-4b29-b904-6718f3387622.png">
 
 5. :tada: Go to Actions tab to see the first workflow running
     - Under `All workflows`, you will find your new workflow `Node.js CI.
