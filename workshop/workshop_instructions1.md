@@ -57,29 +57,23 @@ At the end of this exercise we will learn -
 
 1. Go to `.github/workflows/ci.yml` and enter edit mode by clicking the pencil :pencil: icon
    - To make the workflow name specific to our app, change the name of the workflow to "React App CI".
-   - For our app, we want to trigger the CI on push and pull_request events not only for main branch but also all the branches starting with `releases\`. Let's specify these in `on:`
+   - For our app, we want to trigger the CI on push and pull_request events not only for main branch but also all the branches starting with `releases/*`. Let's specify these in `on:`
    - Rename the `build` job id to `build-test` as it is does both build and test
-   - Provide a name also for this job as "Build and Test". When you start typing "name", use Ctrl+space in the yaml editor for Intellisense. 
+   - Provide a name also for this job as "Build and Test" using `name: Build and Test`. When you start typing "name", use Ctrl+space in the yaml editor for Intellisense. 
            
    💡 When you are editing your workflow, on the right hand side you will find `Marketplace` and `Documentation` tabs. You can check the documentation tab for information on how to make these changes in the workflow 
   
 2. Click on "Start Commit" and commit your changes to the workflow.
  
-   <details>
-        <summary><b>Click here to view the contents of the yaml file to copy:</b></summary>
-
     ```yaml
     name: React App CI
 
     on:
       push:
-        branches: 
-        - main 
-        - releases/*
+        branches: [ main, releases/* ]
+
       pull_request:
-        branches: 
-        - main 
-        - releases/*
+        branches: [ main, releases/* ]
 
     jobs:
       build-test:
@@ -103,7 +97,6 @@ At the end of this exercise we will learn -
         - run: npm test
         
     ```
-   </details>
    - :warning: `yaml` syntax relies on indentation, please make sure that this is not changed
 
 ## Create a Pull request to add a status badge to ReadMe
