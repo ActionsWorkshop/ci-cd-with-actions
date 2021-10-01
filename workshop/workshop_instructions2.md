@@ -166,7 +166,7 @@ Lets go back to our `ci-cd-with-actions` repository to make changes to the CD wo
     runs-on: ubuntu-latest
     environment:
       name: Production
-      url: https://${{ env.owner }}.${{ env.domain }}/${{ env.repo }}//
+      url: https://${{ env.owner }}.${{ env.domain }}/${{ env.repo }}
     env:
       repo: actions-workshop-prod
     steps:
