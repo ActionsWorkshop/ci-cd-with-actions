@@ -62,7 +62,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: DevTest
-      url: https://${{ env.owner }}.${{ env.domain }}/${{ env.repo }}//
+      url: https://${{ env.owner }}.${{ env.domain }}/${{ env.repo }}
     env:
       repo: ci-cd-with-actions
     steps:
